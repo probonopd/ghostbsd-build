@@ -142,7 +142,7 @@ packages_software()
   mkdir -p ${release}/var/cache/pkg
   mount_nullfs ${software_packages} ${release}/var/cache/pkg
   mount -t devfs devfs ${release}/dev
-  cat ${cwd}/packages/${desktop} | xargs pkg -c ${release} install -y
+  cat ${cwd}/packages/${desktop} | sed '/^#/d' | sed '/\!i386/d' | xargs pkg -c ${release} install -y
   mkdir -p ${release}/compat/linux/proc
   rm ${release}/etc/resolv.conf
   umount ${release}/var/cache/pkg
