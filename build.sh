@@ -69,6 +69,12 @@ workdir="/usr/local"
 livecd="${workdir}/ghostbsd-build"
 base="${livecd}/base"
 iso="${livecd}/iso"
+if [ -n "$CIRRUS_CI" ] ; then
+  # On Cirrus CI ${livecd} is in tmpfs for speed reasons
+  # and tends to run out of space. Writing the final ISO
+  # to non-tmpfs should be an acceptable compromise
+  iso="${CIRRUS_WORKING_DIR}/artifacts"
+fi
 software_packages="${livecd}/software_packages"
 base_packages="${livecd}/base_packages"
 release="${livecd}/release"
