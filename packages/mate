@@ -1,7 +1,7 @@
 brisk-menu
 cups
 cups-filters
-cups-smb-backend
+# cups-smb-backend
 cursor-dmz-theme
 dconf-editor
 # dejavu
@@ -12,15 +12,15 @@ en-hunspell
 firefox
 font-awesome
 # fonts-indic
-foomatic-db
-foomatic-db-engine
-foomatic-db-hpijs
+# foomatic-db
+# foomatic-db-engine
+# foomatic-db-hpijs
 freedesktop-sound-theme
 fusefs-ext2
 fusefs-ntfs
 fusefs-simple-mtpfs
 gbi
-gdk-pixbuf2
+# gdk-pixbuf2
 ghostbsd-common-settings
 ghostbsd-drivers
 ghostbsd-icons
@@ -29,14 +29,14 @@ ghostbsd-mate-settings
 # ghostbsd-mate-themes
 ghostbsd-utils
 # ghostbsd-wallpapers
-git
+git-lite
 # gnome-keyring
 # gstreamer1-plugins-neon
 # gstreamer1-plugins-soup
 # gtk-murrine-engine
 # gtk3-unico-engine
 # libreoffice
-mesa-demos
+# mesa-demos
 nano
 nss_mdns
 nvidia-driver
@@ -44,8 +44,8 @@ p7zip
 pc-sysinstall
 pkg
 plank
-pv
-python
+# pv
+# python
 # rhythmbox
 rsync
 # shotwell
@@ -56,7 +56,7 @@ system-config-printer
 # thunderbird
 # transmission-gtk
 unzip
-vim-tiny
+# vim-tiny
 # vlc
 wmctrl
 xconfig
