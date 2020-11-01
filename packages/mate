@@ -4,14 +4,14 @@ cups-filters
 cups-smb-backend
 cursor-dmz-theme
 dconf-editor
-dejavu
+# dejavu
 drm-fbsd12.0-kmod
-droid-fonts-ttf
+# droid-fonts-ttf
 en-aspell
 en-hunspell
 firefox
 font-awesome
-fonts-indic
+# fonts-indic
 foomatic-db
 foomatic-db-engine
 foomatic-db-hpijs
@@ -26,16 +26,16 @@ ghostbsd-drivers
 ghostbsd-icons
 ghostbsd-mate
 ghostbsd-mate-settings
-ghostbsd-mate-themes
+# ghostbsd-mate-themes
 ghostbsd-utils
-ghostbsd-wallpapers
+# ghostbsd-wallpapers
 git
-gnome-keyring
-gstreamer1-plugins-neon
-gstreamer1-plugins-soup
-gtk-murrine-engine
-gtk3-unico-engine
-libreoffice
+# gnome-keyring
+# gstreamer1-plugins-neon
+# gstreamer1-plugins-soup
+# gtk-murrine-engine
+# gtk3-unico-engine
+# libreoffice
 mesa-demos
 nano
 nss_mdns
@@ -46,21 +46,21 @@ pkg
 plank
 pv
 python
-rhythmbox
+# rhythmbox
 rsync
-shotwell
+# shotwell
 slick-greeter
 station-tweak
 system-config-printer
-telegram-desktop
-thunderbird
-transmission-gtk
+# telegram-desktop
+# thunderbird
+# transmission-gtk
 unzip
 vim-tiny
-vlc
+# vlc
 wmctrl
 xconfig
-xorg-fonts
+# xorg-fonts
 xorg-minimal
 xrandr
 zip
