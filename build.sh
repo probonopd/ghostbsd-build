@@ -14,7 +14,7 @@ kernrel="`uname -r`"
 case $kernrel in
   '12.2-STABLE'|'12.1-STABLE'|'12.0-STABLE') ;;
   *)
-    echo "wARNING: Using wrong kernel release. Use GhostBSD 20.04 or later to build iso."
+    echo "WARNING: Using wrong kernel release. Use GhostBSD 20.04 or later to build iso."
     ;;
 esac
 
