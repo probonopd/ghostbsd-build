@@ -30,8 +30,7 @@ task:
     - kldload nullfs.ko
     - kldload geom_uzip.ko
     - pkg install -y pkg git-lite zsync wget sha bash # qemu-devel uefi-edk2-qemu-x86_64
-    - mkdir -p /usr/local/furybsd
-    - mount -t tmpfs tmpfs /usr/local/ghostbsd-build
+    - mkdir -p /usr/local/ghostbsd-build && mount -t tmpfs tmpfs /usr/local/ghostbsd-build
     - ( cd /tmp ; wget https://github.com/probonopd/ghostbsd-build/releases/download/pkg-static/pkg-static-zip.zip ; unzip pkg-static-zip.zip ; mv usr/local/sbin/pkg-static /usr/local/bin/ ; chmod +x /usr/local/bin/pkg-static ; cd - )
     - pkg-static -v
     
